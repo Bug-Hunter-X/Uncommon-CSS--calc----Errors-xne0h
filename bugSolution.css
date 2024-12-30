@@ -1,0 +1,17 @@
+/* bugSolution.css */
+
+/* Correct usage of calc() */
+.correct {
+  width: calc(100% - 10px);
+  height: calc(50vh + 2em);
+}
+
+/* Correcting a mixed unit error and spacing */
+.fixed {
+  width: calc(100% - 10em + 2px);
+}
+
+/* Handling Complex Nested calc() properly */
+.complex {
+  width: calc(50% - calc(20px + 10%));
+}
